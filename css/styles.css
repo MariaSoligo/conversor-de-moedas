@@ -58,3 +58,9 @@ main #result span {
     margin-right: 50px;
     margin-left: 50px;
 }
+
+@media (min-width:320px) {
+    main, form{
+        width:90% ;
+    }
+}
