@@ -37,7 +37,7 @@ function converter() {
 
 function valueFormatter(locale, currency) {
  const value = valueConverted.toLocaleString( `${locale}` , {style:'currency', currency: `${currency}` })
-return `<span>🪙</span> ${value} <span></span>`;
+return ` ${value} <span></span>`;
 }
 
 function animateResult() {
