@@ -11,3 +11,13 @@ header h1 {
     text-align: center;
     cursor: pointer;
 }
+
+@media (min-width:320px) {
+    header {
+        width: 100%
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+}
