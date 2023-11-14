@@ -64,3 +64,10 @@ main #result span {
         width:90% ;
     }
 }
+
+@media (min-width:320px) {
+    main #result{
+        width:50% ;
+    
+    }
+}
